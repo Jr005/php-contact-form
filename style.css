@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+
+/* 
+YELLOW - #f7c51e
+GREY - #363636
+background white - #f6f6f6
+
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+
+.color-overlay-container {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    z-index: 2;
+    position: absolute;
+}
+
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: purple;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+.btn:hover {
+    background: green;
+}
+
+
+.btn-black{
+    padding: 1.5rem 2rem;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn-yellow{
+    padding: 1.5rem 2rem;
+    color:  white;
+    background: #f7c51e;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    margin: .5rem 0;
+}
+
+/* Utility Classes */
+
+
+
+.container {
+    max-width: 1404px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-yellow {
+    color: #f7c51e;
+}
+
+.text-black {
+    color: black;
+}
+
+.bg-yellow {
+    background: #f7c51e;
+    color: black;
+}
+
+.bg-yellow-white {
+    background: #f7c51e;
+    color: white;
+}
+
+.bg-grey {
+    background: #363636;
+    color: white;
+}
+
+.bg-black {
+    background:black;
+    color: white;
+}
+
+
+.circle {
+
+   width: 13rem;
+   height: 13rem;
+   background: #ffd34a; 
+   -moz-border-radius: 50%; 
+   -webkit-border-radius: 50%; 
+   border-radius: 50%;
+}
+
+
+.l-heading {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin: 0.75rem 0;
+}
+
+
+
+/* Padding */
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+
+/* All Around Padding */
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+
+/* Utility Classes - END */
+
+
+
+/******* FORM *******/
+
+#contacts-info .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: auto; */
+    left: 0;
+    right: 0;
+    
+}
+
+#contacts-info .items .item{
+    padding: 0 2rem;
+    
+}
+
+
+
+
+
+
+#contacts-info  .items .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contacts-info  .items .contact-form .form-group label {
+    display: block;
+}
+
+#contacts-info  .items .contact-form input,
+#contacts-info  .items .contact-form .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
